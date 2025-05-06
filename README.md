@@ -24,7 +24,7 @@
 
 ## Documentation
 
-Go to [reactbits.dev](#) to view the documentation.
+Go to [#](#) to view the documentation.
 
 ## About
 
