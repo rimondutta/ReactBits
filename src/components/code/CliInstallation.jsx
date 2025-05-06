@@ -24,7 +24,7 @@ const CliInstallation = (cliData) => {
 
       <h2 className="demo-title">Full CLI Setup</h2>
       <Text className="jsrepo-info" mb={2} mt={4} color="#a1a1aa">
-        React Bits uses <a href="https://jsrepo.dev/" target="_blank">jsrepo</a> to help you install components via CLI - it can be set up project-wide!
+        React Bits uses <a href="#" target="_blank">jsrepo</a> to help you install components via CLI - it can be set up project-wide!
       </Text>
 
       <Accordion allowToggle>
@@ -46,7 +46,7 @@ const CliInstallation = (cliData) => {
             ].map(({ label, path }) => (
               <div key={path}>
                 <p className="demo-extra-info">{label}</p>
-                <CodeHighlighter language="bash" codeString={`npx jsrepo init https://reactbits.dev/${path}`} />
+                <CodeHighlighter language="bash" codeString={`npx jsrepo init #${path}`} />
               </div>
             ))}
 
